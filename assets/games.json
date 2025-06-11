@@ -1,0 +1,20 @@
+[
+  {"name": "Elden Ring",
+    "price": "$79.99",
+    "rating": "10/10",
+    "achievements": "100%",
+    "image": "er"
+  },
+  {"name": "Red Dead Redemption 2",
+    "price": "$79.99",
+    "rating": "10/10",
+    "achievements":  "29%",
+    "image": "rdr2"
+  },
+  {"name": "Dark Souls 3",
+    "price": "$79.99",
+    "rating": "9.5/10",
+    "achievements":  "76%",
+    "image": "ds3"
+  }
+]
