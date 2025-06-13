@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
         marginHorizontal: 5,
         alignItems: 'center',
         justifyContent: 'space-evenly',
-        padding: 3,
-        backgroundColor: 'black'
+        backgroundColor: '#D3D3D3',
+        borderRadius: 10,
     },
     button: {
         borderRadius: 10,
@@ -34,14 +34,17 @@ const styles = StyleSheet.create({
         height: '100%',
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: 'white'
 
     },
     buttonLabel: {
-        color: 'white',
+        color: 'black',
         fontSize: 16,
+
     },
     activeButton: {
-        backgroundColor: 'red',
+        borderRadius: 25,
+        backgroundColor: 'white',
     }
 });
 
