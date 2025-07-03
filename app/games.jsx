@@ -7,10 +7,14 @@ import { useContext } from 'react';
 import { gameContext } from "../components/gameContext.jsx";
 
 const er = require("../assets/images/er.png")
+const sote = require("../assets/images/sote.png")
 const ds3 = require("../assets/images/ds3.png")
+const ds3RC = require ("../assets/images/ds3RC.png")
 const rdr2 = require("../assets/images/rdr2.png")
+const rdr2_2nd = require("../assets/images/rdr2_2nd.png")
 
-const images = { "er": er, "ds3": ds3, "rdr2":rdr2 };
+const images = { "er": er,      "ds3": ds3,     "rdr2":rdr2,
+                 "sote": sote,  "ds3RC":ds3RC,  "rdr2_2nd":rdr2_2nd};
 
 export default function Index() {
     const router = useRouter();
